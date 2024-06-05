@@ -1,0 +1,45 @@
+*{box-sizing: border-box;
+padding: 0; 
+margin: 0;}
+
+.container{
+    margin: 400px auto;
+    max-width: 800px;
+    border: 2px solid black;
+}
+form{
+    margin-top: 40px;
+    
+}
+input,button{
+    display: block;
+    padding: 8px;
+    width: 98%;
+    margin: 8px;
+    
+}
+h1{
+    text-align: center;
+}
+.error{
+    color:wheat;
+    border-color: red;
+    background-color: red;
+    display: none;
+}
+
+#sucess{
+    padding: 8px;
+    background-color: green;
+    margin: 8px;
+    text-align: center;
+    display: none;
+}
+
+#error{
+    padding: 8px;
+    background-color: red;
+    margin: 8px;
+    text-align: center;
+    display: none;
+}
